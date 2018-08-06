@@ -127,6 +127,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Assets\style-import.css" />
+    <Content Include="Content\Assets\style-rtl.css" />
+    <Content Include="Content\Assets\style.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -161,9 +164,21 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Partials\_Head.cshtml" />
+    <Content Include="Views\Shared\Partials\_Header.cshtml" />
+    <Content Include="Views\Shared\Partials\_Footer.cshtml" />
+    <Content Include="Views\Shared\Partials\_Slider.cshtml" />
+    <Content Include="Views\Shared\Partials\_StaticSlider.cshtml" />
+    <Content Include="Views\Shared\Partials\_Foot.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Assets\css\" />
+    <Folder Include="Content\Assets\images\" />
+    <Folder Include="Content\Assets\include\" />
+    <Folder Include="Content\Assets\js\" />
+    <Folder Include="Content\Assets\less\" />
+    <Folder Include="Content\Assets\sass\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
